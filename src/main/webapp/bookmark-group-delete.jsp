@@ -39,7 +39,7 @@
 	</div>
 	
 	<form method="get" action="bookmark-group-delete-submit.jsp">
-		<table class="table-horizon">
+		<table class="table-vertical">
 			<tr>
 				<th>북마크 이름</th>
 				<td><%=bookmarkGroup.getName()%></td>
