@@ -24,7 +24,7 @@
 		BookmarkGroupDto bookmarkGroup = bookmarkGroupDao.selectBookmarkGroup(id);
 	%>
 	<form method="post" action="bookmark-group-edit-submit.jsp" autocomplete=off>
-		<table class="table-horizon">
+		<table class="table-vertical">
 			<tr>
 				<th>북마크 이름</th>
 				<td>
