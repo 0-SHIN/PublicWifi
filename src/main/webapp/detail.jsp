@@ -45,7 +45,7 @@
 	<button>북마크 추가하기</button>
 	<input type="hidden" name="mgrNo" value="<%=mgrNo%>">
 	</form>
-	<table class="table-horizon">
+	<table class="table-vertical">
 		<tr>
 			<th>거리(Km)</th>
 			<td><%=wifi.getDistance()%></td>
