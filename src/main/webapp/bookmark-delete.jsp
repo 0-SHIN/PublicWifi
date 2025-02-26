@@ -27,7 +27,7 @@
 		BookmarkDto bookmark = bookmarkDao.selectBookmarkData(id);
 	%>
 	<form method="post" action="bookmark-delete-submit.jsp">
-		<table class="table-horizon">
+		<table class="table-vertical">
 			<tr>
 				<th>북마크 이름</th>
 				<td><%=bookmark.getBookmarkGroupName()%></td>
